@@ -1,0 +1,46 @@
+.custom-btn {
+    background-color: rgb(251, 120, 72);
+    border: 1px solid white;
+    color: #ffffff;
+}
+
+.paddingbottom{
+    padding-bottom: 40px;
+}
+
+.icon {
+
+    font-size: 40px;
+        background-color: #00BFFF;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+
+.button{
+    background-color: #00BFFF;
+    display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        
+}
+
+@media only screen and (min-width:200px) and (max-width:567px) {
+    .experience{
+        justify-content:left;
+    }
+
+    .icon{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width:567px) and (max-width:1000px) {
+    .icon{
+        display: none;
+    }
+}
